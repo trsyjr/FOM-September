@@ -296,6 +296,9 @@ body {
   background-image: repeating-linear-gradient(to bottom, transparent 0, transparent calc(2.3rem - 2px), var(--line) calc(2.3rem - 2px), var(--line) 2.3rem);
   padding: 0 .3rem;
 }
+.answer p + p {
+  margin-top: 2.3rem; 
+}
 
 /* ---------- polaroids ---------- */
 .sway { animation: sway 7s ease-in-out var(--sd, 0s) infinite alternate; }

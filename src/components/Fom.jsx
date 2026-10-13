@@ -293,6 +293,7 @@ function Landing({ onOpen, leaving, photoCount }) {
 
 /* ---------- one question + its photos ---------- */
 function Entry({ e, n, total }) {
+  const paragraphs = Array.isArray(e.a) ? e.a : [e.a]
   const odd = n % 2 === 1
   const photos = e.photos || []
   return (
@@ -304,14 +305,20 @@ function Entry({ e, n, total }) {
           : 'lg:grid-cols-[minmax(0,17rem)_minmax(0,1fr)]')
       }
     >
-      <div className={'flex min-w-0 flex-col gap-4 ' + (odd ? '' : 'lg:order-2')}>
+     <div className={'flex min-w-0 flex-col gap-4 ' + (odd ? '' : 'lg:order-2')}>
         <p className="q-pill m-0 self-start">
           <Heart /> Question {n} of {total}
         </p>
         <h2 className="m-0">
           <span className="question">{e.q}</span>
         </h2>
-        <p className="answer m-0">{e.a}</p>
+        <div className="answer max-w-3xl">
+          {paragraphs.map((text, i) => (
+            <p key={i} style={{ margin: 0, marginTop: i === 0 ? 0 : '2.3rem' }}>
+              {text}
+            </p>
+          ))}
+        </div>
       </div>
       <div
         className={

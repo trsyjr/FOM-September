@@ -15,7 +15,7 @@ const content = {
   nickname: 'PMC Queen',
   role: 'Training Specialist III',
   tagline:
-    'Our feature this month keeps the routes running, the volunteers fed, and the whole team laughing. Here are ten questions, a pile of photos, and a few sticky notes.',
+    'Here we are celebrating MERL’s charm and sweet aesthetic while highlighting how her warmth, kindness, and helpful nature make the office a brighter place every day.',
 
   facts: [
     ['Team', 'Community Programs'],
@@ -31,16 +31,33 @@ const content = {
 
   entries: [
     {
-      q: 'What does a normal day look like for you?',
-      a: 'Up at six, rice and eggs, then at the office by eight to check the day’s visits. Mornings are phone calls and route planning. Afternoons are out in the field. I keep the last hour for notes so nothing follows me home.',
+      q: 'Merl’s Morning Magic - Walk us through your ideal, aesthetic morning routine before heading into work.',
+      a: [
+        'Reality: Wake up (may kasamang panic- kasi hindi nagising sa unang alarm 😂) tulala around 5 minutes (contemplating- ito bang ginagawa ko ay necessary sa pag-akyat ko sa langit? 😂 or anong dulot nitong desisyon kong ito sa buhay na gusto ko?- basically convincing myself to get up and work), baba sa tutulala ulit at gigisingin si mama for a coffee ( I can make my own- but I like it better kapag si mama nagtimpla- while having coffee- makikinig sa kwento ni mama na around 2-3 times na nyang nasabi- if solo lang ako kakalma- if sumabay kaming 3- (2 older sister) makikipagpaunahan sa CR at sa malaking salamin para mag-ayos- pinakalast ay yung smallest mirror ang gagamitin 😂',
+        'But my ideal morning? Definitely an unrushed morning!',
+        'I just love the idea na I have enough time to do all the things I wanna do before going to work—tutulala, mag-scroll, drink my coffee, have breakfast, enjoy a quiet moment, reflect, or literally just do nothing. Like, ang sarap lang na hindi ka nagmamadali!',
+        'I also love having enough time to prep myself and look nicey. There’s something about feeling pretty and put-together that makes me feel more organized and ready to face the day.',
+        'And of course, my morning wouldn’t be complete without my mom! My coffee is prepared, breakfast is ready (as the princess that I am! 👸😂), my clothes are ironed the night before, and my everyday bag and things are ready to go.',
+        'I think there’s just something beautiful about starting your day with a peaceful mind, a grateful heart, and enough time to enjoy the little things—even if that means listening to Mama’s stories for the third time! HAHAHA.',
+      ],
       photos: [
         { src: '/images/q1-a.jpg', caption: 'morning route check' },
         { src: '/images/q1-b.jpg', caption: 'rice and eggs fuel' },
       ],
     },
     {
-      q: 'How did you end up here?',
-      a: 'I started as a weekend volunteer in 2019, mostly carrying boxes. My supervisor asked if I wanted to help schedule the drivers, and I said yes before I knew what that meant. I applied for a full-time role the next year.',
+      q: 'What are three cute or non-negotiable items on your desk that you can’t live without?',
+      a: [
+        'First, my phone and earphones! As someone na halos everyday may coordination, calls, and biglaang concerns, I cannot afford to lose my phone! And my earphones, please, non-negotiable talaga! Otherwise, lahat kami nagsisigawan sa office at hindi ko na alam kung sino ang kausap ko',
+        'Second, my notebook or accomplishment planner! Sa dami ng ginagawa every day, I need something to keep track of everything. Otherwise, by the end of the day, mapapaisip na lang ako, “Wait, ano nga bang ginawa ko today?” HAHAHA. I need to write things down kasi sometimes ang daming nangyayari in one day na even I cannot keep up with myself!',
+        'And third, my little pink island mirror! This one is more on the cute and sentimental side. Dito ko nilalagay yung mga pasalubong and little things given by people close to me—our turtles, bracelets, mini surfboards, and kung ano-ano pang tiny treasures. They’re not necessarily expensive or grand, but I love keeping them close kasi each one reminds me of someone or a little memory. Parang mini collection of people I love! 💗',
+        'Other essentials😂',
+        'My water bottle—because I need to stay hydrated, kahit minsan three days na siyang nakatambay sa table. Huhu',
+        'My lip balm—because as a tamad mag-lipstick girlie, lip balm is life! Lalo na kapag stressed, apply lang nang apply. 😂',
+        'My hair freshener—because as a Move It passenger every morning, kailangan natin ng pangmalakasang hair freshener! Otherwise, maghapon akong amoy kahapon! HAHAHAHUHU.',
+        'And of course, my Sign Here tabs! Sa dami ng papers na kailangang pirmahan, these little things are lifesavers!',
+        'So ayun, technically three essentials… with a few supporting characters! HAHAHA. 😂'
+      ],
       photos: [
         { src: '/images/q2-a.jpg', caption: 'volunteer days' },
         { src: '/images/q2-b.jpg', caption: 'box carrying champion' },

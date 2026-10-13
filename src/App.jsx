@@ -279,6 +279,7 @@ function Landing({ onOpen, leaving }) {
 
 /* ---------- one question + its photos ---------- */
 function Entry({ e, n }) {
+  const paragraphs = Array.isArray(e.a) ? e.a : [e.a]
   const odd = n % 2 === 1
   const photos = e.photos || []
   return (
@@ -297,7 +298,13 @@ function Entry({ e, n }) {
         <h2 className="m-0">
           <span className="question">{e.q}</span>
         </h2>
-        <p className="answer m-0 max-w-3xl">{e.a}</p>
+        <div className="answer max-w-3xl">
+          {paragraphs.map((text, i) => (
+            <p key={i} style={{ margin: 0, marginTop: i === 0 ? 0 : '2.3rem' }}>
+              {text}
+            </p>
+          ))}
+        </div>
       </div>
       <div
         className={

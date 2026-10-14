@@ -1,3 +1,21 @@
+import merl1 from './assets/Merl1.jpg'
+import merl2 from './assets/Merl2.jpg'
+import merl3 from './assets/Merl3.jpg'
+import merl4 from './assets/Merl4.jpeg'
+import merl5 from './assets/Merl5.jpg'
+import merl6 from './assets/Merl6.jpg'
+import merl7 from './assets/Merl7.jpeg'
+import merl8 from './assets/Merl9.png'
+import merl9 from './assets/Merl10.png'
+import merl10 from './assets/Merl11.png'
+
+import merlpic1 from './assets/MerlPic1.jpg'
+import merlpic2 from './assets/MerlPic2.JPG'
+import merlpic3 from './assets/MerlPic3.jpg'
+import merlpic4 from './assets/MerlPic4.jpeg'
+import merlpic5 from './assets/MerlPic5.png'
+import merlpic6 from './assets/MerlPic6.png'
+
 const content = {
   // ----- cover (landing page) -----
   issue: 'Issue 9',
@@ -25,8 +43,8 @@ const content = {
   ],
 
   hero: [
-    { src: '/images/hero-1.jpg', caption: 'Mika, on a good Tuesday' },
-    { src: '/images/hero-2.jpg', caption: 'the office plant corner' },
+    { src: merlpic1, caption: '' },
+    { src: merlpic2, caption: '' },
   ],
 
   entries: [
@@ -41,8 +59,8 @@ const content = {
         'I think there’s just something beautiful about starting your day with a peaceful mind, a grateful heart, and enough time to enjoy the little things—even if that means listening to Mama’s stories for the third time! HAHAHA.',
       ],
       photos: [
-        { src: '/images/q1-a.jpg', caption: 'morning route check' },
-        { src: '/images/q1-b.jpg', caption: 'rice and eggs fuel' },
+        { src: merlpic3, caption: '' },
+        { src: merlpic4, caption: '' },
       ],
     },
     {
@@ -59,8 +77,8 @@ const content = {
         'So ayun, technically three essentials… with a few supporting characters! HAHAHA. 😂'
       ],
       photos: [
-        { src: '/images/q2-a.jpg', caption: 'volunteer days' },
-        { src: '/images/q2-b.jpg', caption: 'box carrying champion' },
+        { src: merlpic5, caption: '' },
+        { src: merlpic6, caption: '' },
       ],
     },
     {
@@ -132,16 +150,16 @@ const content = {
   wallTitle: 'Memory wall',
   wallNote: 'Little moments from the year, pinned up in no particular order.',
   wall: [
-    { src: '/images/wall-01.jpg', caption: 'team lunch' },
-    { src: '/images/wall-02.jpg', caption: 'rainy route' },
-    { src: '/images/wall-03.jpg', caption: 'birthday cake' },
-    { src: '/images/wall-04.jpg', caption: 'office selfie' },
-    { src: '/images/wall-05.jpg', caption: 'delivery day' },
-    { src: '/images/wall-06.jpg', caption: 'new plants' },
-    { src: '/images/wall-07.jpg', caption: 'training day' },
-    { src: '/images/wall-08.jpg', caption: 'coffee run' },
-    { src: '/images/wall-09.jpg', caption: 'volunteer crew' },
-    { src: '/images/wall-10.jpg', caption: 'sunset ride' },
+    { src: merl1, caption: '' },
+    { src: merl2, caption: '' },
+    { src: merl3, caption: '' },
+    { src: merl4, caption: '' },
+    { src: merl5, caption: '' },
+    { src: merl6, caption: '' },
+    { src: merl7, caption: '' },
+    { src: merl8, caption: '' },
+    { src: merl9, caption: '' },
+    { src: merl10, caption: '' },
     // { src: '/images/wall-11.jpg', caption: 'thank-you notes' },
     // { src: '/images/wall-12.jpg', caption: 'group hug' },
   ],

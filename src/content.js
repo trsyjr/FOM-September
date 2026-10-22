@@ -16,6 +16,13 @@ import merlpic4 from './assets/MerlPic4.jpeg'
 import merlpic5 from './assets/MerlPic5.png'
 import merlpic6 from './assets/MerlPic6.png'
 
+import mpic1 from './assets/Mpic1.jpg'
+import mpic2 from './assets/Mpic2.jpg'
+import mpic3 from './assets/Mpic3.jpg'
+import mpic4 from './assets/Mpic4.jpg'
+import mpic5 from './assets/Mpic5.jpg'
+import mpic6 from './assets/Mpic6.jpg'
+
 const content = {
   // ----- cover (landing page) -----
   issue: 'Issue 9',
@@ -36,10 +43,9 @@ const content = {
     'Here we are celebrating MERL’s charm and sweet aesthetic while highlighting how her warmth, kindness, and helpful nature make the office a brighter place every day.',
 
   facts: [
-    ['Team', 'Community Programs'],
-    ['Here since', 'March 2021'],
-    ['Snack of choice', 'Dried mango, always'],
-    ['On repeat', 'Rainy-day lo-fi playlists'],
+    ['Favorite', 'I Love Passion Fruit!'],
+    ['Socializing', 'I Have On and Off Button in Socializing'],
+    ['Family', 'I`m the Favorite Daughter'],
   ],
 
   hero: [
@@ -49,7 +55,7 @@ const content = {
 
   entries: [
     {
-      q: 'Merl’s Morning Magic - Walk us through your ideal, aesthetic morning routine before heading into work.',
+      q: 'Walk us through your ideal, aesthetic morning routine before heading into work.',
       a: [
         'Reality: Wake up (may kasamang panic- kasi hindi nagising sa unang alarm 😂) tulala around 5 minutes (contemplating- ito bang ginagawa ko ay necessary sa pag-akyat ko sa langit? 😂 or anong dulot nitong desisyon kong ito sa buhay na gusto ko?- basically convincing myself to get up and work), baba sa tutulala ulit at gigisingin si mama for a coffee ( I can make my own- but I like it better kapag si mama nagtimpla- while having coffee- makikinig sa kwento ni mama na around 2-3 times na nyang nasabi- if solo lang ako kakalma- if sumabay kaming 3- (2 older sister) makikipagpaunahan sa CR at sa malaking salamin para mag-ayos- pinakalast ay yung smallest mirror ang gagamitin 😂',
         'But my ideal morning? Definitely an unrushed morning!',
@@ -82,67 +88,45 @@ const content = {
       ],
     },
     {
-      q: 'What is a project you are proud of?',
-      a: 'The school supply drive in June. We reached eleven neighborhoods in three weeks, and every bag had a handwritten name tag. Watching kids carry them on the first day made the late nights worth it.',
+      q: 'How would you describe your personal style and aesthetic in three words?',
+      a: [
+        'Classic, Feminine, and Comfortable! 💗\n\n',
+        'I like outfits na simple, timeless, and effortless-looking—but of course, may effort pa rin behind that! HAHAHA. Yung parang ang dali lang mag-ayos, pero actually pinag-isipan mo rin naman kung anong bagay sa`yo.',
+        'I`m not necessarily someone who follows every trend. I prefer knowing what suits me, what makes me comfortable, and what makes me feel confident.',
+        'I love dressing up and looking nicey, pero ayoko rin naman nung kailangan kong magtiis the whole day just to look pretty. HAHAHA. Like, why can`t we have both?',
+        'Basta for me, I like looking put-together without being too extra. A little maarte, a little kikay, but still comfortable enough to survive a whole day of work! 😂'
+      ],
       photos: [
-        { src: '/images/q3-a.jpg', caption: 'the supply drive crew' },
-        { src: '/images/q3-b.jpg', caption: 'name tags, one by one' },
+        { src: mpic1, caption: ''},
+        { src: mpic2, caption: '' },
       ],
     },
     {
-      q: 'What did you learn this year?',
-      a: 'A simple checklist saves more time than a clever system. I tried three apps this year and went back to a paper list taped above my desk.',
+      q: 'If you could only eat one dessert or drink one signature beverage for the rest of your life, what would it be?',
+      a: 'I cannot with just one. Like one dessert or beverage for the rest of my life? That’s serious commitment right there 😂 Pero to answer laging kasama sa meal plan ko ang coffee, so maybe coffee?',
       photos: [
-        { src: '/images/q4-a.jpg', caption: 'the famous paper list' },
-        { src: '/images/q4-b.jpg', caption: 'app graveyard' },
+        { src: mpic3, caption: '' },
+        { src: mpic4, caption: '' },
       ],
     },
     {
-      q: 'Who helped you the most along the way?',
-      a: 'My team lead, Joy, who answered every question without making me feel silly for asking. And the drivers, who know every shortcut in the city.',
-      photos: [
-        { src: '/images/q5-a.jpg', caption: 'Joy and Mika' },
-        { src: '/images/q5-b.jpg', caption: 'the driver squad' },
+      q: 'What is one small, simple thing that never fails to brighten your day (Little joys)?',
+      a: [
+        'I think it`s really the little gestures from the people around me. Yung kahit gaano ka-stressful or draining ang araw, people still find ways to remind you na, hey, we have each other.',
+        'Like si Kleng, na lagi akong pinapaalalahanan na tumayo naman sa upuan ko, take a break, at maglakad-lakad kahit saglit. Si Angel, na intentionally makikipag-small talk just to get me out of my working mode. Yung mga biglang mag-aaya na lumabas muna, maglakad, or magpahinga saglit.',
+        'And of course, yung mga random memes and reels na sinesend just to make the day a little lighter. Or yung biglang, "Merl, binilhan kita nito kasi alam kong magugustuhan mo," or "Uy, naalala kita dito!" Huhu, my heart!  Ang simple lang, pero I really appreciate those things. The thought na someone remembered you even in the smallest ways, ang sweet lang.',
+        'Si Ms. Me rin, our fighter! HAHAHA. Yung kahit ang dami na rin niyang nasa plate, she still makes sure na okay kami. She`s always ready to defend us, stand up for us, and share whatever she has. Her generosity both in material and immaterial things reminds us that we matter for her.',
+        'Si Edd, na kahit hindi mo sabihan, kusa nang magbubuhat or magdadala ng gamit. Yung simpleng pagpayong, his witty banat, and all the little things he does without making a big deal out of them. Si Kent naman, with his generosity, signature angst (HAHAHAHA), and acts of service na minsan beyond what`s even expected of him.',
+        'And really, it`s not just them. It`s everyone I get to work with sa DA.',
+        'I know we all have our own struggles, responsibilities, and things we`re dealing with outside work. Pero despite everything, we still find ways to be considerate of one another. Yung sabay-sabay kaming nagtatrabaho, nagrereklamo, nagtatawanan, at minsan nagdedebrief or trauma dumping together!',
+        'I think those little moments remind me na we`re all human. Hindi lang tayo colleagues trying to finish our deliverables. We`re also people who get tired, who need understanding, and who appreciate being cared for.',
+        'And more than anything, I think what I really treasure is the feeling of safety and belonging I`ve found with the people in DA.',
+        'Yung kahit gaano kabigat ang araw, alam mong may mga taong willing makinig, tumulong, or simply make you laugh. Hindi naman nawawala yung stress or workload, but somehow, things feel a little lighter because of them.',
+        'And I guess that`s my little joy—being surrounded by people who, despite having so much on their own plates, still make room to care for others. 💗'
       ],
-    },
-    {
-      q: 'What do you do to recharge?',
-      a: 'Long walks after work and a small plant corner by my window. On Sundays I bake banana bread and give most of it away.',
       photos: [
-        { src: '/images/q6-a.jpg', caption: 'sunset walk' },
-        { src: '/images/q6-b.jpg', caption: 'Sunday banana bread' },
-      ],
-    },
-    {
-      q: 'What is your go-to lunch order?',
-      a: 'Chicken adobo with extra sauce and a cold calamansi juice. If the canteen runs out, I eat the dried mango from my drawer.',
-      photos: [
-        { src: '/images/q7-a.jpg', caption: 'adobo with extra sauce' },
-        { src: '/images/q7-b.jpg', caption: 'calamansi o’clock' },
-      ],
-    },
-    {
-      q: 'What is on your desk right now?',
-      a: 'A mug of pens I never use, three sticky notes with phone numbers, a succulent named Biscuit, and a framed photo from the supply drive.',
-      photos: [
-        { src: '/images/q8-a.jpg', caption: 'desk, as of today' },
-        { src: '/images/q8-b.jpg', caption: 'Biscuit the succulent' },
-      ],
-    },
-    {
-      q: 'What was the hardest moment, and what got you through it?',
-      a: 'Last typhoon season, when three routes flooded in one day. We called every family, rerouted the drivers, and nobody went without a delivery. I got through it by splitting the day into one-hour pieces.',
-      photos: [
-        { src: '/images/q9-a.jpg', caption: 'rerouting day' },
-        { src: '/images/q9-b.jpg', caption: 'team after the storm' },
-      ],
-    },
-    {
-      q: 'What would you tell someone just starting out?',
-      a: 'Ask questions early and write things down. Nobody expects you to know everything in the first month, and the people who seem to know it all started out confused too.',
-      photos: [
-        { src: '/images/q10-a.jpg', caption: 'first week energy' },
-        { src: '/images/q10-b.jpg', caption: 'notes on notes' },
+        { src: mpic5, caption: '' },
+        { src: mpic6, caption: '' },
       ],
     },
   ],

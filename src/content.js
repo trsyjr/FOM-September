@@ -21,7 +21,7 @@ import mpic2 from './assets/Mpic2.jpg'
 import mpic3 from './assets/Mpic3.jpg'
 import mpic4 from './assets/Mpic4.jpg'
 import mpic5 from './assets/Mpic5.jpg'
-import mpic6 from './assets/Mpic6.jpg'
+import mpic6 from './assets/Mpic6.JPG'
 
 const content = {
   // ----- cover (landing page) -----
